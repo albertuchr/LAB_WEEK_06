@@ -64,9 +64,59 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.BalineseJavanese,
+                    "Mimi",
+                    "Playful and sweet",
+                    "https://cdn2.thecatapi.com/images/2oo.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.ExoticShorthair,
+                    "Tom",
+                    "Lazy but cute",
+                    "https://cdn2.thecatapi.com/images/4dq.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.AmericanCurl,
+                    "Luna",
+                    "Loves sleeping all day",
+                    "https://cdn2.thecatapi.com/images/6ui.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.BalineseJavanese,
+                    "Oscar",
+                    "Always hungry",
+                    "https://cdn2.thecatapi.com/images/9ab.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.ExoticShorthair,
+                    "Bella",
+                    "Very friendly",
+                    "https://cdn2.thecatapi.com/images/8lo.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.AmericanCurl,
+                    "Max",
+                    "Protective of family",
+                    "https://cdn2.thecatapi.com/images/b3f.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.ExoticShorthair,
+                    "Shadow",
+                    "Mysterious and quiet",
+                    "https://cdn2.thecatapi.com/images/b9c.jpg"
                 )
             )
         )
+
     }
 //This will create a pop up dialog when one of the items from the recycler view
 private fun showSelectionDialog(cat: CatModel) {
